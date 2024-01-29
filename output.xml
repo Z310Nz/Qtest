@@ -1,193 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-29T14:57:10.834223" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-29T15:00:44.983808" rpa="false" schemaversion="5">
 <suite id="s1" name="64021788Qtest" source="C:\Users\Z310Nz\Desktop\testing sub\Qtest\64021788Qtest.robot">
 <kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
-<msg time="2024-01-29T14:57:10.987036" level="INFO">Opening browser 'chrome' to base url 'http://automationexercise.com'.</msg>
+<msg time="2024-01-29T15:00:45.138160" level="INFO">Opening browser 'chrome' to base url 'http://automationexercise.com'.</msg>
 <arg>${url}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-01-29T14:57:10.987036" elapsed="3.773771"/>
+<status status="PASS" start="2024-01-29T15:00:45.138160" elapsed="6.616129"/>
 </kw>
 <test id="s1-t1" name="Reigstering" line="42">
 <kw name="Check Page">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>${MAINCLASS}</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-01-29T14:57:14.761810" elapsed="0.012957"/>
+<status status="PASS" start="2024-01-29T15:00:51.755288" elapsed="0.010000"/>
 </kw>
-<status status="PASS" start="2024-01-29T14:57:14.761810" elapsed="0.012957"/>
+<status status="PASS" start="2024-01-29T15:00:51.755288" elapsed="0.010000"/>
 </kw>
 <kw name="Click Register">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:14.775801" level="INFO">Clicking element 'xpath=//a[@href='/login']'.</msg>
+<msg time="2024-01-29T15:00:51.766288" level="INFO">Clicking element 'xpath=//a[@href='/login']'.</msg>
 <arg>${REGI_BTN}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:14.775801" elapsed="1.213197"/>
+<status status="PASS" start="2024-01-29T15:00:51.766288" elapsed="6.428647"/>
 </kw>
-<status status="PASS" start="2024-01-29T14:57:14.775801" elapsed="1.213197"/>
+<status status="PASS" start="2024-01-29T15:00:51.766288" elapsed="6.428647"/>
 </kw>
 <kw name="Input Name">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:15.989996" level="INFO">Typing text 'Pratya' into text field 'name:name'.</msg>
+<msg time="2024-01-29T15:00:58.195936" level="INFO">Typing text 'Pratya' into text field 'name:name'.</msg>
 <arg>${NAME_INPUT}</arg>
 <arg>${NAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:15.989996" elapsed="0.104538"/>
+<status status="PASS" start="2024-01-29T15:00:58.195936" elapsed="0.081512"/>
 </kw>
 <arg>${NAME}</arg>
-<status status="PASS" start="2024-01-29T14:57:15.989996" elapsed="0.104538"/>
+<status status="PASS" start="2024-01-29T15:00:58.194935" elapsed="0.082513"/>
 </kw>
 <kw name="Input Email">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:16.094534" level="INFO">Typing text 'p.daddasddedadsadddaswdrwdwsasasdddwqdasdsdwqweqweedasdfwweqdsdwp@gmail.com' into text field 'xpath=//input[@type='email' and @data-qa='signup-email']'.</msg>
+<msg time="2024-01-29T15:00:58.278447" level="INFO">Typing text 'p.daddasddedadsadddaswdrwdwsasasdddwqdasdsdwqweqweedasdfwweqdsdwp@gmail.com' into text field 'xpath=//input[@type='email' and @data-qa='signup-email']'.</msg>
 <arg>${EMAIL_INPUT}</arg>
 <arg>${EMAIL}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:16.094534" elapsed="0.222762"/>
+<status status="PASS" start="2024-01-29T15:00:58.278447" elapsed="0.197792"/>
 </kw>
 <arg>${EMAIL}</arg>
-<status status="PASS" start="2024-01-29T14:57:16.094534" elapsed="0.222762"/>
+<status status="PASS" start="2024-01-29T15:00:58.278447" elapsed="0.197792"/>
 </kw>
 <kw name="Click Signup">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:16.318294" level="INFO">Clicking element 'xpath=//button[contains(text(),'Signup')]'.</msg>
+<msg time="2024-01-29T15:00:58.477238" level="INFO">Clicking element 'xpath=//button[contains(text(),'Signup')]'.</msg>
 <arg>${SIGN_UP_BTN}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:16.317296" elapsed="0.960302"/>
+<status status="PASS" start="2024-01-29T15:00:58.477238" elapsed="1.386895"/>
 </kw>
-<status status="PASS" start="2024-01-29T14:57:16.317296" elapsed="0.960302"/>
+<status status="PASS" start="2024-01-29T15:00:58.477238" elapsed="1.387901"/>
 </kw>
 <kw name="Check SignupPage">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>${SIGN_UP_PAGE}</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.278598" elapsed="0.018034"/>
+<status status="PASS" start="2024-01-29T15:00:59.866135" elapsed="0.014997"/>
 </kw>
-<status status="PASS" start="2024-01-29T14:57:17.278598" elapsed="0.019033"/>
+<status status="PASS" start="2024-01-29T15:00:59.865139" elapsed="0.017018"/>
 </kw>
 <kw name="Click Gender">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.297631" level="INFO">Clicking element 'id:id_gender1'.</msg>
+<msg time="2024-01-29T15:00:59.882157" level="INFO">Clicking element 'id:id_gender1'.</msg>
 <arg>${GENDER_RADIO}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.297631" elapsed="0.034547"/>
+<status status="PASS" start="2024-01-29T15:00:59.882157" elapsed="0.034493"/>
 </kw>
-<status status="PASS" start="2024-01-29T14:57:17.297631" elapsed="0.034547"/>
+<status status="PASS" start="2024-01-29T15:00:59.882157" elapsed="0.034493"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.332178" level="INFO">Typing text 'Pratya' into text field 'id=first_name'.</msg>
+<msg time="2024-01-29T15:00:59.917646" level="INFO">Typing text 'Pratya' into text field 'id=first_name'.</msg>
 <arg>id=first_name</arg>
 <arg>Pratya</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.332178" elapsed="0.237298"/>
+<status status="PASS" start="2024-01-29T15:00:59.916650" elapsed="0.207317"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.569476" level="INFO">Typing text 'Palee' into text field 'id=last_name'.</msg>
+<msg time="2024-01-29T15:01:00.124964" level="INFO">Typing text 'Palee' into text field 'id=last_name'.</msg>
 <arg>id=last_name</arg>
 <arg>Palee</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.569476" elapsed="0.090533"/>
+<status status="PASS" start="2024-01-29T15:01:00.124964" elapsed="0.093038"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.661001" level="INFO">Typing text '1234567890' into text field 'id=password'.</msg>
+<msg time="2024-01-29T15:01:00.219002" level="INFO">Typing text '1234567890' into text field 'id=password'.</msg>
 <arg>id=password</arg>
 <arg>1234567890</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.661001" elapsed="0.156627"/>
+<status status="PASS" start="2024-01-29T15:01:00.219002" elapsed="0.088955"/>
 </kw>
 <kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.817628" level="INFO">Selecting options from selection list 'id=days' by value 15.</msg>
+<msg time="2024-01-29T15:01:00.308958" level="INFO">Selecting options from selection list 'id=days' by value 15.</msg>
 <arg>${DAYS_DROPDOWN}</arg>
 <arg>15</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.817628" elapsed="0.066002"/>
+<status status="PASS" start="2024-01-29T15:01:00.308958" elapsed="0.076822"/>
 </kw>
 <kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.883630" level="INFO">Selecting options from selection list 'id=months' by value 10.</msg>
+<msg time="2024-01-29T15:01:00.386781" level="INFO">Selecting options from selection list 'id=months' by value 10.</msg>
 <arg>${MONTHS_DROPDOWN}</arg>
 <arg>10</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.883630" elapsed="0.057569"/>
+<status status="PASS" start="2024-01-29T15:01:00.386781" elapsed="0.068521"/>
 </kw>
 <kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.941199" level="INFO">Selecting options from selection list 'id=years' by value 2002.</msg>
+<msg time="2024-01-29T15:01:00.456301" level="INFO">Selecting options from selection list 'id=years' by value 2002.</msg>
 <arg>${YEARS_DROPDOWN}</arg>
 <arg>2002</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.941199" elapsed="0.055006"/>
+<status status="PASS" start="2024-01-29T15:01:00.455302" elapsed="0.070533"/>
 </kw>
 <kw name="Select Checkbox" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:17.996205" level="INFO">Selecting checkbox 'id=newsletter'.</msg>
+<msg time="2024-01-29T15:01:00.526840" level="INFO">Selecting checkbox 'id=newsletter'.</msg>
 <arg>id=newsletter</arg>
 <doc>Selects the checkbox identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:17.996205" elapsed="0.054784"/>
+<status status="PASS" start="2024-01-29T15:01:00.526840" elapsed="0.071003"/>
 </kw>
 <kw name="Select Checkbox" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.051784" level="INFO">Selecting checkbox 'id=optin'.</msg>
+<msg time="2024-01-29T15:01:00.598872" level="INFO">Selecting checkbox 'id=optin'.</msg>
 <arg>id=optin</arg>
 <doc>Selects the checkbox identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.051784" elapsed="0.053714"/>
+<status status="PASS" start="2024-01-29T15:01:00.598872" elapsed="0.069267"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.105498" level="INFO">Typing text 'Z310Nz' into text field 'id=company'.</msg>
+<msg time="2024-01-29T15:01:00.669131" level="INFO">Typing text 'Z310Nz' into text field 'id=company'.</msg>
 <arg>id=company</arg>
 <arg>Z310Nz</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.105498" elapsed="0.071866"/>
+<status status="PASS" start="2024-01-29T15:01:00.668139" elapsed="0.087099"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.178365" level="INFO">Typing text '1 moo 6' into text field 'id=address1'.</msg>
+<msg time="2024-01-29T15:01:00.756234" level="INFO">Typing text '1 moo 6' into text field 'id=address1'.</msg>
 <arg>id=address1</arg>
 <arg>1 moo 6</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.178365" elapsed="0.078517"/>
+<status status="PASS" start="2024-01-29T15:01:00.756234" elapsed="0.085120"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.257909" level="INFO">Typing text 'Sridonchai' into text field 'id=address2'.</msg>
+<msg time="2024-01-29T15:01:00.843365" level="INFO">Typing text 'Sridonchai' into text field 'id=address2'.</msg>
 <arg>id=address2</arg>
 <arg>Sridonchai</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.257909" elapsed="0.106506"/>
+<status status="PASS" start="2024-01-29T15:01:00.843365" elapsed="0.081043"/>
 </kw>
 <kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.365413" level="INFO">Selecting options from selection list 'id=country' by value Singapore.</msg>
+<msg time="2024-01-29T15:01:00.925407" level="INFO">Selecting options from selection list 'id=country' by value Singapore.</msg>
 <arg>${COUNTRY_DROPDOWN}</arg>
 <arg>Singapore</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.364415" elapsed="0.066517"/>
+<status status="PASS" start="2024-01-29T15:01:00.925407" elapsed="0.060860"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.431959" level="INFO">Typing text 'CR' into text field 'id=state'.</msg>
+<msg time="2024-01-29T15:01:00.986267" level="INFO">Typing text 'CR' into text field 'id=state'.</msg>
 <arg>id=state</arg>
 <arg>CR</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.431959" elapsed="0.075980"/>
+<status status="PASS" start="2024-01-29T15:01:00.986267" elapsed="0.069530"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.508939" level="INFO">Typing text 'Thong' into text field 'id=city'.</msg>
+<msg time="2024-01-29T15:01:01.056834" level="INFO">Typing text 'Thong' into text field 'id=city'.</msg>
 <arg>id=city</arg>
 <arg>Thong</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.508939" elapsed="0.081182"/>
+<status status="PASS" start="2024-01-29T15:01:01.056834" elapsed="0.074541"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.590121" level="INFO">Typing text '57230' into text field 'id=zipcode'.</msg>
+<msg time="2024-01-29T15:01:01.131375" level="INFO">Typing text '57230' into text field 'id=zipcode'.</msg>
 <arg>id=zipcode</arg>
 <arg>57230</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.590121" elapsed="0.097860"/>
+<status status="PASS" start="2024-01-29T15:01:01.131375" elapsed="0.075540"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.688977" level="INFO">Typing text '0987654321' into text field 'id=mobile_number'.</msg>
+<msg time="2024-01-29T15:01:01.206915" level="INFO">Typing text '0987654321' into text field 'id=mobile_number'.</msg>
 <arg>id=mobile_number</arg>
 <arg>0987654321</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-01-29T14:57:18.688977" elapsed="0.084588"/>
+<status status="PASS" start="2024-01-29T15:01:01.206915" elapsed="0.078904"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-01-29T14:57:18.773565" level="INFO">Clicking element 'xpath=//button[contains(text(),'Create Account')]'.</msg>
-<msg time="2024-01-29T14:57:19.933421" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-01-29T14:57:19.933421" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_2" name="aswift_2" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=3&amp;amp;uci=a!3&amp;amp;btvi=1" data-google-container-id="a!3" data-google-query-id="CMHsyPSPgoQDFYDPcwEd0scHGw" data-load-complete="true"&gt;&lt;/iframe&gt;
+<msg time="2024-01-29T15:01:01.286842" level="INFO">Clicking element 'xpath=//button[contains(text(),'Create Account')]'.</msg>
+<msg time="2024-01-29T15:01:02.445905" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-01-29T15:01:02.445905" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_1" name="aswift_1" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=2&amp;amp;uci=a!2&amp;amp;btvi=1" data-google-container-id="a!2" data-google-query-id="CKeo5d6QgoQDFfkltwAdtAEI8A" data-load-complete="true"&gt;&lt;/iframe&gt;
   (Session info: chrome=121.0.6167.86)
 Stacktrace:
 	GetHandleVerifier [0x00007FF60C8D5E42+3538674]
@@ -218,7 +218,7 @@ Stacktrace:
 </msg>
 <arg>xpath=//button[contains(text(),'Create Account')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="FAIL" start="2024-01-29T14:57:18.773565" elapsed="1.161855">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_2" name="aswift_2" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=3&amp;amp;uci=a!3&amp;amp;btvi=1" data-google-container-id="a!3" data-google-query-id="CMHsyPSPgoQDFYDPcwEd0scHGw" data-load-complete="true"&gt;&lt;/iframe&gt;
+<status status="FAIL" start="2024-01-29T15:01:01.285819" elapsed="1.162086">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_1" name="aswift_1" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=2&amp;amp;uci=a!2&amp;amp;btvi=1" data-google-container-id="a!2" data-google-query-id="CKeo5d6QgoQDFfkltwAdtAEI8A" data-load-complete="true"&gt;&lt;/iframe&gt;
   (Session info: chrome=121.0.6167.86)
 Stacktrace:
 	GetHandleVerifier [0x00007FF60C8D5E42+3538674]
@@ -251,38 +251,38 @@ Stacktrace:
 <kw name="Page Should Contain" owner="SeleniumLibrary">
 <arg>ACCOUNT CREATED!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.935420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.448905" elapsed="0.000000"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//*[@id="form"]/div/div/div/div/a</arg>
+<arg>xpath=//button[contains(text(),'Continue')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.936420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.449908" elapsed="0.000000"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
 <arg>Logged in as Pratya</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.936420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.449908" elapsed="0.000000"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
 <arg>xpath=//*[@id="header"]/div/div/div/div[2]/div/ul/li[5]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.936420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.450943" elapsed="0.000000"/>
 </kw>
 <kw name="Page Should Contain" owner="SeleniumLibrary">
 <arg>ACCOUNT DELETED!</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.936420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.450943" elapsed="0.000000"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//*[@id="form"]/div/div/div/div/a</arg>
+<arg>xpath=//button[contains(text(),'Continue')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.937420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.450943" elapsed="0.000000"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2024-01-29T14:57:19.937420" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-01-29T15:01:02.450943" elapsed="0.000000"/>
 </kw>
-<status status="FAIL" start="2024-01-29T14:57:14.760807" elapsed="5.176613">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_2" name="aswift_2" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=3&amp;amp;uci=a!3&amp;amp;btvi=1" data-google-container-id="a!3" data-google-query-id="CMHsyPSPgoQDFYDPcwEd0scHGw" data-load-complete="true"&gt;&lt;/iframe&gt;
+<status status="FAIL" start="2024-01-29T15:00:51.754289" elapsed="10.697615">ElementClickInterceptedException: Message: element click intercepted: Element &lt;button type="submit" data-qa="create-account" class="btn btn-default"&gt;...&lt;/button&gt; is not clickable at point (193, 692). Other element would receive the click: &lt;iframe id="aswift_1" name="aswift_1" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20240122/r20110914/zrt_lookup_fy2021.html?fsb=1#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=1&amp;amp;ifi=2&amp;amp;uci=a!2&amp;amp;btvi=1" data-google-container-id="a!2" data-google-query-id="CKeo5d6QgoQDFfkltwAdtAEI8A" data-load-complete="true"&gt;&lt;/iframe&gt;
   (Session info: chrome=121.0.6167.86)
 Stacktrace:
 	GetHandleVerifier [0x00007FF60C8D5E42+3538674]
@@ -312,7 +312,7 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FF97FD0AA58+40]
 </status>
 </test>
-<status status="FAIL" start="2024-01-29T14:57:10.835222" elapsed="9.105201"/>
+<status status="FAIL" start="2024-01-29T15:00:44.984808" elapsed="17.473098"/>
 </suite>
 <statistics>
 <total>

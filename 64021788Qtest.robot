@@ -66,9 +66,9 @@ Reigstering
     Input Text    id=mobile_number    0987654321
     Click Element    xpath=//button[contains(text(),'Create Account')]
     Page Should Contain  ACCOUNT CREATED!
-    Click Element  xpath=//*[@id="form"]/div/div/div/div/a
+    Click Element  xpath=//button[contains(text(),'Continue')]
     Page Should Contain  Logged in as Pratya
     Click Element  xpath=//*[@id="header"]/div/div/div/div[2]/div/ul/li[5]/a
     Page Should Contain  ACCOUNT DELETED!
-    Click Element  xpath=//*[@id="form"]/div/div/div/div/a
+    Click Element  xpath=//button[contains(text(),'Continue')]
     Close Browser
